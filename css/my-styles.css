@@ -1,0 +1,106 @@
+       .custom-nav{
+            background-color: #06141b; /* Change this to your preferred color */
+            color: white; /* Text color inside the nav */
+            padding: 20px; /* Adds padding inside the nav bar */
+            }
+        
+        .custom-nav nav ul {
+            float: right;
+        }
+
+        .custom-nav nav ul li {
+                list-style-type: none;
+                display: inline;
+                padding: 1em;
+                color: white;
+         }
+
+        body {
+            color: #ffffff ;
+        }
+
+        * {
+        font-family: Arial, Verdana, sans-serif;
+        box-sizing: border-box;}
+        
+        header h1 {
+        color: rgb(255, 255, 255);
+        text-align: left;
+    }
+
+        h1{
+            color: #06141b;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h2{
+            color: #ffffff;
+        }
+        .welcome-container {
+            max-width: 800px; /* Adjust width as needed */
+            margin: 0 auto; /* Center the container */
+            padding: 30px;
+            background-color: #253745;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.562); /* Adds a subtle shadow */
+            display: flex;
+            align-items: center;
+            gap: 5px; /* Space between image and text */
+        
+        }
+        
+        .welcome-content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        
+        .welcome-image {
+            width: 300px; /* Adjust size as needed */
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(23, 28, 54, 0.74); /* Adds shadow to the image */
+            margin: 30px; /* space for the image all around the four edges */
+        }
+        
+        .welcome-text {
+            flex: 1; /* Allows text to take remaining space */
+        }
+
+        .center-content {  
+            text-align: center; /* centering work with their titles */
+        }
+
+        .video {
+            width: 150px;
+            height: auto; /* Maintains aspect ratio */
+        }
+
+        article img {
+            max-width: 100%;
+            height:auto;}
+
+        .row-color-1 {
+            background-color:#9ba8ab;
+        }
+
+        nav, #feature, footer {
+            text-align: center;
+            
+        }
+
+        footer p {
+            font-size: px;
+        }
+
+        footer a {      /* the letter a is used here as a tag so i can call the specific tag that wraps around the icon */
+            font-size: 24px;
+            margin: 0 10px;
+            text-decoration: none; /* no underline */
+        }
+
+
+      
+
+        
